@@ -1,0 +1,16 @@
+div{
+  box-sizing: border-box;
+  button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    background: red;
+    outline: none;
+    transition: .5s;
+    &.active{
+      background: green;
+      transition: .5s;
+    }
+  }
+}
